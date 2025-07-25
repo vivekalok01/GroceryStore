@@ -10,24 +10,24 @@ const About = () => {
             <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
               <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                 <img
-                  class=" rounded-xl object-cover"
+                  className=" rounded-xl object-cover"
                   src={img}
                   alt="ownerimage"
                 />
               </div>
               <img
-                class="sm:ml-0 ml-auto rounded-xl object-cover"
+                className="sm:ml-0 ml-auto rounded-xl object-cover"
                 src={img}
                 alt="ownerimage"
               />
             </div>
-            <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
-              <div class="w-full flex-col justify-center items-start gap-8 flex">
-                <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                  <h2 class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+              <div className="w-full flex-col justify-center items-start gap-8 flex">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                  <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                     Freshness, Value, and a Smile – That’s Our Promise!
                   </h2>
-                  <p class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                  <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                     At Alok Brother’s Grocery Mart, we provide fresh groceries,
                     daily essentials, kitchenware, snacks, beverages, and
                     more—all under one roof. Our mission is to offer
@@ -37,27 +37,27 @@ const About = () => {
                     Serving the community with care is our top priority.
                   </p>
                 </div>
-                <div class="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
-                  <div class="flex-col justify-start items-start inline-flex">
-                    <h4 class="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+                <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
+                  <div className="flex-col justify-start items-start inline-flex">
+                    <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
                       4.7
                     </h4>
-                    <h6 class="text-gray-500 text-base font-normal leading-relaxed">
+                    <h6 className="text-gray-500 text-base font-normal leading-relaxed">
                       Rating
                     </h6>
                   </div>
-                  <div class="flex-col justify-start items-start inline-flex">
-                    <h4 class="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+                  <div className="flex-col justify-start items-start inline-flex">
+                    <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
                       1000+
                     </h4>
-                    <h6 class="text-gray-500 text-base font-normal leading-relaxed">
+                    <h6 className="text-gray-500 text-base font-normal leading-relaxed">
                       Happy Customers
                     </h6>
                   </div>
                 </div>
               </div>
-              <button class="sm:w-fit w-full px-3.5 py-2 bg-[#3161A3] hover:bg-indigo-800 cursor-pointer transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                <span class="px-1.5 text-white text-sm font-medium leading-6">
+              <button className="sm:w-fit w-full px-3.5 py-2 bg-[#3161A3] hover:bg-indigo-800 curspo transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                <span className="px-1.5 text-white text-sm font-medium leading-6">
                   Read More
                 </span>
               </button>

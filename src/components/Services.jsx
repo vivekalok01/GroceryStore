@@ -24,16 +24,16 @@ const Services = () => {
         </div>
         <div className="flex flex-col lg:flex-row gap-4 w-full lg:w-[65%] ">
           <div className="flex flex-col gap-4 w-ful lg:w-[50%]">
-            <div class="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
                <img
                 src={grocery}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
                 alt=""
               />
-              <p class="text-gray-900 text-xl font-semibold ml-2 mt-2">
+              <p className="text-gray-900 text-xl font-semibold ml-2 mt-2">
                 Grocery Items
               </p>
-              <p class="text-gray-500 text-sm my-3 ml-2">
+              <p className="text-gray-500 text-sm my-3 ml-2">
                 {" "}
                 Find all your daily grocery needs at one place — from fresh
                 staples to pantry essentials, we offer quality, affordability,
@@ -42,16 +42,16 @@ const Services = () => {
               </p>
             </div>
 
-            <div class="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={stationary}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
                 alt=""
               />
-              <p class="text-gray-900 text-xl font-semibold ml-2 mt-2">
+              <p className="text-gray-900 text-xl font-semibold ml-2 mt-2">
                 Stationery Items
               </p>
-              <p class="text-gray-500 text-sm my-3 ml-2">
+              <p className="text-gray-500 text-sm my-3 ml-2">
                 {" "}
                 Whether you're a student, a professional, or running a
                 household, our wide range of stationery items — notebooks, pens,
@@ -61,16 +61,16 @@ const Services = () => {
             </div>
           </div>
           <div className="flex flex-col gap-4 w-ful lg:w-[50%]">
-            <div class="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={wheat}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
                 alt=""
               />
-              <p class="text-gray-900 text-xl font-semibold ml-2 mt-2">
+              <p className="text-gray-900 text-xl font-semibold ml-2 mt-2">
                 Grains (Rice, Pulses, etc.)
               </p>
-              <p class="text-gray-500 text-sm my-3 ml-2">
+              <p className="text-gray-500 text-sm my-3 ml-2">
                 {" "}
                 We offer premium-quality grains, pulses, rice, and cereals —
                 sourced from trusted suppliers to ensure purity, nutrition, and
@@ -79,16 +79,16 @@ const Services = () => {
               </p>
             </div>
 
-            <div class="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={kitchen}
                 className="w-10 md:w-11 lg:w-11 p-2 rounded-full"
                 alt=""
               />
-              <p class="text-gray-900 text-xl font-semibold ml-2 mt-2">
+              <p className="text-gray-900 text-xl font-semibold ml-2 mt-2">
                 Kitchen & Plastic Utensils
               </p>
-              <p class="text-gray-500 text-sm my-3 ml-2">
+              <p className="text-gray-500 text-sm my-3 ml-2">
                 {" "}
                 Upgrade your kitchen with our range of reliable tools,
                 plasticware, and cooking essentials — from durable utensils to
