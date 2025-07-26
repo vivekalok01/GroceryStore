@@ -16,8 +16,11 @@ const Hero = () => {
                     <img className="w-28 md:w-50" src={cartimage} />
                     <div className="text-center md:text-center max-w-3xl">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl text-black">
+                            <p className="text-gray-700">
+
                             Serving Families with Care and Quality Since Day One
-                            <span className="block font-bold text-gray-900 mt-1 relative">
+                            </p>
+                            <span className="block font-extrabold text-gray-900 mt-1 relative">
                                 Alok Brother's
                                 <svg className="absolute -bottom-7 md:left-24 w-full h-4 md:h-5" width="370" height="26"
                                     viewBox="0 0 370 26" fill="none" xmlns="http://www.w3.org/2000/svg">

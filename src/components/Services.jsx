@@ -8,9 +8,9 @@ import kitchen from "../assets/icons/kitchen-tools.gif";
 const Services = () => {
   return (
     <div>
-      <div className="w-full bg-gradient-to-l from-white via-sky-100 to-white flex-col min-h-[88vh] lg:flex-row flex-wrap flex items-center justify-between gap-4 p-1 md:p-4">
+      <div className="w-full bg-gradient-to-l from-white via-orange-100 to-white flex-col min-h-[88vh] lg:flex-row flex-wrap flex items-center justify-between gap-4 p-1 md:p-4">
         <div className="flex gap-3 flex-col w-full lg:w-[30%] ">
-          <h1 className="text-3xl lg:text-4xl text-center md:text-left font-extrabold text-blue-400">
+          <h1 className="text-3xl lg:text-4xl text-center md:text-left font-extrabold text-[#3161A3]">
             Our Grocery & Household Product Services
           </h1>
           <p className="text-center md:text-left font-semibold text-gray-600 text-[15px] md:text-[16px] mt-1">
@@ -18,22 +18,22 @@ const Services = () => {
             stationery, all your daily essentials in one affordable, trusted
             store.
           </p>
-          <p className="text-blue-500 text-center md:text-left font-semibold">
+          <p className="text-[#3161A3] cursor-pointer hover:text-[#3161A3] text-center md:text-left font-semibold">
             Explore More
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-4 w-full lg:w-[65%] ">
-          <div className="flex flex-col gap-4 w-ful lg:w-[50%]">
-            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+          <div className="flex flex-col gap-3 w-ful lg:w-[50%]">
+            <div className="p-1 md:p-2 bg-white rounded-lg shadow-sm w-[100%]">
                <img
                 src={grocery}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
                 alt=""
               />
-              <p className="text-gray-900 text-xl font-semibold ml-2 mt-2">
+              <p className="text-gray-900 text-xl font-semibold ml-2 mt-1">
                 Grocery Items
               </p>
-              <p className="text-gray-500 text-sm my-3 ml-2">
+              <p className="text-gray-500 text-sm my-1 ml-2">
                 {" "}
                 Find all your daily grocery needs at one place — from fresh
                 staples to pantry essentials, we offer quality, affordability,
@@ -42,7 +42,7 @@ const Services = () => {
               </p>
             </div>
 
-            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-1 md:p-2 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={stationary}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
@@ -60,8 +60,8 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-4 w-ful lg:w-[50%]">
-            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+          <div className="flex flex-col gap-3 w-ful lg:w-[50%]">
+            <div className="p-1 md:p-2 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={wheat}
                 className="w-10 md:w-11 lg:w-11  p-2 rounded-full"
@@ -79,7 +79,7 @@ const Services = () => {
               </p>
             </div>
 
-            <div className="p-4 bg-white rounded-lg shadow-sm w-[100%]">
+            <div className="p-1 md:p-2 bg-white rounded-lg shadow-sm w-[100%]">
               <img
                 src={kitchen}
                 className="w-10 md:w-11 lg:w-11 p-2 rounded-full"
